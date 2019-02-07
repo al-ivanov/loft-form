@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<title>Мебель Лофт</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Cache-Control" content="private">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="grid.css">
+	<link rel="stylesheet" href="form.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.min.css'>
+	<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,300italic,300'>
+	<!--<script src='http://production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script>
+	<script src='http://production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script>
+	<script src='http://production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>-->
+
+
+</head>
+
+<body>
+	<div class="bg-0">
+		<!-- 1Container -->
+		<div class="container-fluid bg-1">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-3 logo text-center">
+						<img src="img/logoDark.png" alt="Лофт-мебель">
+						<strong>Лофт мебель</strong>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-3"></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 phone">
+						<span>
+							<b>+7 (963)</b> 716-31-03</span>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 butt">
+						<a id="uid2" style="text-decoration:none" href="#orderForm" class="btn">ПЕРЕЗВОНИТЕ</a>
+					</div>
+				</div>
+				<div class="row top">
+					<div class="col-sm-12 col-md-6">
+						<h1>Мебель в стиле
+							<span>ЛОФТ</span>
+						</h1>
+						<h3>Только натуральное дерево и металл.
+							<br>Стильная, надежная и экологичная мебель в наличии и на заказ.
+							<br>Изготовление по вашим размерам за 5 дней!</h3>
+						<a class="butt" style="text-decoration:none" id="uid5" href="#orderForm" data-action="form" data-form="form">
+							<span>Рассчитать стоимость</span>
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<img style="max-height:510px;" src="img/main.jpg" class="img-responsive" alt="Мебель в стиле ЛОФТ">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 2Container -->
+	<div class="container-fluid bg-2 text-center">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-sm-4 margin-top">
+					<img src="img/arrow_down.gif" alt="">
+					<h3 class="margin">Индивидуально</h3>
+					<p>Изготовление точно по вашим размерам. Возможность выбрать цвет и материал деревянных частей.</p>
+				</div>
+				<div class="col-sm-4 margin-top">
+					<img src="img/arrow_down.gif" alt="">
+					<h3 class="margin">Быстро</h3>
+					<p>Изготовление в течении 5 рабочих дней вне зависимости от количества и размера изделий. Доставка готовой мебели.</p>
+				</div>
+				<div class="col-sm-4 margin-top">
+					<img src="img/arrow_down.gif" alt="">
+					<h3 class="margin">Надежно</h3>
+					<p>При нормальной эксплуатации срок службы практически не ограничен. Все соединения максимально надежны.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- 3Container (Grid) -->
+	<div class="container-fluid bg-3 text-center">
+		<!--<h2 class="margin">Хранение вещей</h2>-->
+		<h2 style="margin-top:25px;">Популярные варианты</h2>
+		<div class="site-content cf">
+
+
+			<div class="courses cf" id="showcase">
+
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/pop/1.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 220 см.</li>
+								<li>Ширина - 40 см.</li>
+								<li>Глубина - 40 см.</li>
+								<li>Сталь</li>
+								<li class="price">14800 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/pop/2.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 200 см.</li>
+								<li>Ширина - 100 см.</li>
+								<li>Глубина - 50 см.</li>
+								<li>Сталь, береза</li>
+								<li class="price">17490 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/pop/3.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 50 см.</li>
+								<li>Ширина - 100 см.</li>
+								<li>Глубина - 35 см.</li>
+								<li>Сталь, массив сосны</li>
+								<li class="price">14200 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/pop/4.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 12 см.</li>
+								<li>Ширина - 100 см.</li>
+								<li>Глубина - 12 см.</li>
+								<li>Массив сосны</li>
+								<li class="price">7900 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/pop/5.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://s-media-cache-ak0.pinimg.com/736x/80/51/ba/8051ba29d8450492b819ae2aace51b99.jpg" height="277" width="400" alt=""> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 10 см.</li>
+								<li>Ширина - 50 см.</li>
+								<li>Глубина - 20 см.</li>
+								<li>Сталь</li>
+								<li class="price">6500 руб.</li>
+							</ul>
+						</div>
+						<span class="course-caption ion ion-closed-captioning"></span>
+					</div>
+				</div>
+
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/pop/6.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/uploads/users/48/posts/22337/preview_image/Linux-setup-for-developers.png" height="277" width="400" alt="Linux Image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 45 см.</li>
+								<li>Ширина - 100 см.</li>
+								<li>Глубина - 55 см.</li>
+								<li>Сталь, массв сосны</li>
+								<li class="price">12500 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/pop/7.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="http://a3ab771892fd198a96736e50.javacodegeeks.netdna-cdn.com/wp-content/uploads/2014/03/Atom-Text-Editor-By-GitHub.png" height="277" width="400" alt="TextEdit Image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 100 см.</li>
+								<li>Ширина - 50 см.</li>
+								<li>Глубина - 30 см.</li>
+								<li>Массив сосны, сталь</li>
+								<li class="price">7000 руб.</li>
+							</ul>
+						</div>
+						<span class="course-caption ion ion-closed-captioning"></span>
+					</div>
+				</div>
+
+
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/pop/8.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="http://a3ab771892fd198a96736e50.javacodegeeks.netdna-cdn.com/wp-content/uploads/2014/03/Atom-Text-Editor-By-GitHub.png" height="277" width="400" alt="TextEdit Image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 70 см.</li>
+								<li>Ширина - 100 см.</li>
+								<li>Глубина - 25 см.</li>
+								<li>Сталь, дуб</li>
+								<li class="price">12100 руб.</li>
+							</ul>
+						</div>
+						<span class="course-caption ion ion-closed-captioning"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-3 text-center">
+		<h2 class="margin">Популярные столики</h2>
+		<div class="site-content cfc">
+
+
+			<div class="courses cf" id="showcase2">
+
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/desks/9.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 50 см.</li>
+								<li>Ширина - 90 см.</li>
+								<li>Глубина - 60 см.</li>
+								<li>Массив сосны, сталь</li>
+								<li class="price">14900 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/desks/10.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 45 см.</li>
+								<li>Ширина - 100 см.</li>
+								<li>Глубина - 55 см.</li>
+								<li>Массив сосны, сталь</li>
+								<li class="price">12500 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/desks/11.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 45 см.</li>
+								<li>Ширина - 90 см.</li>
+								<li>Глубина - 60 см.</li>
+								<li>Сталь, стекло</li>
+								<li class="price">19900 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/desks/12.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 45 см.</li>
+								<li>Ширина - 55 см.</li>
+								<li>Глубина - 55 см.</li>
+								<li>Сталь, массив дуба</li>
+								<li class="price">15450 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="container-fluid bg-3 text-center">
+
+		<h2>Популярные стулья</h2>
+		<div class="site-content cff">
+
+
+			<div class="courses cf" id="showcase3">
+
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/chairs/13.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 80 см.</li>
+								<li>Ширина - 35 см.</li>
+								<li>Глубина - 35 см.</li>
+								<li>Массив сосны, сталь</li>
+								<li class="price">11200 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/chairs/14.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 45 см.</li>
+								<li>Ширина - 30 см.</li>
+								<li>Глубина - 30 см.</li>
+								<li>Массив сосны, сталь</li>
+								<li class="price">4900 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/chairs/15.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 85 см.</li>
+								<li>Ширина - 35 см.</li>
+								<li>Глубина - 35 см.</li>
+								<li>Сталь, сосна</li>
+								<li class="price">7000 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/chairs/16.jpg" class="img-responsive" alt="Image">
+							<!-- <img src="https://cms-assets.tutsplus.com/legacy-courses/CRS-96680.png" height="277" width="400" alt="image"> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 80 см.</li>
+								<li>Ширина - 35 см.</li>
+								<li>Глубина - 35 см.</li>
+								<li>Сталь, сосна</li>
+								<li class="price">8000 руб.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="course-item slide">
+					<div class="course-summary card">
+						<div class="course-thumbnail">
+							<img src="photo/chairs/17.png" class="img-responsive" alt="Image">
+							<!-- <img src="https://s-media-cache-ak0.pinimg.com/736x/80/51/ba/8051ba29d8450492b819ae2aace51b99.jpg" height="277" width="400" alt=""> -->
+						</div>
+						<div class="course-info">
+							<ul>
+								<li>Высота - 85 см.</li>
+								<li>Ширина - 35 см.</li>
+								<li>Глубина - 35 см.</li>
+								<li>Сталь, массив сосны</li>
+								<li class="price">8900 руб.</li>
+							</ul>
+						</div>
+						<span class="course-caption ion ion-closed-captioning"></span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-4 text-center">
+
+		<div class="wrapper">
+			<div class="row">
+
+				<div class="col-md-8">
+
+					<h2>Укажите размеры</h2>
+					<p>Или пришлите фотографию понравившейся мебели. Мы подготовим чертеж и расчет.</p>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<img src="img/2.jpg" class="img-responsive" alt="Укажите размеры">
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
+
+	<!-- 5Container -->
+	<div class="container-fluid bg-5 text-center">
+		<div class="wrapper">
+			<h2>Выберите цвет</h2>
+
+			<div class="row">
+
+				<div class="col-md-4">
+
+					<img src="img/obr1.jpg" class="img-responsive" alt="">
+					<p>Светлое дерево «Бук»</p>
+				</div>
+				<div class="col-md-4">
+
+					<img src="img/obr2.jpg" class="img-responsive" alt="">
+					<p>Красное дерево «Ольха»</p>
+				</div>
+				<div class="col-md-4">
+
+					<img src="img/obr3.jpg" class="img-responsive" alt="">
+					<p>Темное дерево «Венге»</p>
+				</div>
+
+			</div>
+			* Цвет и текстура дерева может отличаться от представленных на изображении
+
+
+		</div>
+	</div>
+
+	<!-- 6Container -->
+	<div class="container-fluid bg-6 text-center">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<img src="img/dilivery.png" class="img-responsive" alt="Доставка">
+				</div>
+				<div class="col-sm-12 col-md-8">
+					<h2>Изготовим и доставим по адресу</h2>
+					<p>Изготовление мебели займет 5 рабочих дней, после чего мы доставим вам готовую продукцию в любую точку Москвы.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- 7Container -->
+	<div class="bg-0-7">
+		<div class="container-fluid bg-7 text-center">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-md-8">
+						<h2>Оставьте заявку сейчас и получите расчет за 15 минут</h2>
+						<p>Отправьте заявку и наш менеджер свяжется с вами для консультации и уточнения деталей.</p>
+					</div>
+					<div class="col-md-4">
+						<!-- /******************* form starts *********************/ -->
+
+						<div class="head" style="background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); border-top-left-radius: 26px; border-top-right-radius: 26px; color: rgb(204, 204, 204);">
+							<div class="textable">
+								<p style="letter-spacing: 0.1em;">
+									<span style="color: rgb(255, 255, 255);">
+										<span style="font-size: 18px;">ЗАПОЛНИТЕ ЗАЯВКУ</span>
+									</span>
+								</p>
+							</div>
+						</div>
+						<div class="body" style="background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; color: rgb(204, 204, 204);">
+							<div class="cont"></div>
+							<form class="form text-in" name="orderForm" id="orderForm" enctype="multipart/form-data">
+								<div class="fields">
+									<div class="field" data-type="name">
+										<div class="input">
+											<input class="form-control text" data-placeholder="true" id="userName" placeholder="Ваше имя *" style="border-radius: 0px; border-color: rgb(0, 0, 0);"
+											    type="text">
+										</div>
+									</div>
+									<div class="field" data-type="email">
+										<div class="input">
+											<input class="form-control text" data-placeholder="true" id="userPhone" placeholder="Ваш телефон *" style="border-radius: 0px; border-color: rgb(0, 0, 0);"
+											    type="text">
+										</div>
+									</div>
+									<div class="field" data-type="textarea">
+										<div class="input">
+											<textarea class="form-control textarea" data-placeholder="true" id="userTextData" style="border-radius: 0px; border-color: rgb(0, 0, 0);"
+											    placeholder="Что нужно изготовить? *"></textarea>
+										</div>
+									</div>
+									<div class="field" data-type="file">
+										<div class="input">
+											<div class="form-control file">
+												<span class="state">Выберите файл...</span>
+												<input id="userImage" name="ImageUploadForm[image]" type="file">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="macros-button">
+									<div class="btn-out full xs-none">
+										<div class="btn-inner">
+											<button class="btn font-text submit" id="uid14" data-ym_goal="" data-ga_category="" data-ga_action="">
+												<span class="text">Отправить заявку</span>
+												<input id="submitForm" type="submit">
+											</button>
+										</div>
+									</div>
+								</div>
+							</form>
+							<div class="cont"></div>
+						</div>
+						<!-- /******************* form ends **********************/-->
+
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="container-fluid bg-footer text-center">
+		<div class="wrapper">
+
+			<div class="contacts-inner" style="display: flex; justify-content: center;">
+				<div class="leftCol" style="align-self:center; margin:0 30px;">
+					<img src="img/logo.png" alt="Мебель в стиле Лофт">
+					<div class="row" style="padding:0; margin-top: 10px">КОНТАКТЫ</div>
+				</div>
+				<div class="rightCol" style="margin:0 30px;">
+					<div class="instagram" style="display:flex; justify-content: center">
+						<a href="https://www.instagram.com/loftmebel1/" target="_blank" class="instagram__link" style="margin-right: 20px; width: 69px;">
+							<img src="img/inst-logo.png" alt="instLogo">
+						</a>
+						<h3>loftmebel1</h3>
+					</div>
+
+					<h1 class="margin-top margin-bottom" style="margin-top: 15px;">+7 963 716 31 03</h1>
+					<h3 class="margin-top margin-bottom" style="margin-top: 15px;">ivanov-vlad@mail.ru</h3>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+	<script src='http://production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+	<!-- <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.pkgd.min.js'></script>
+	<script>
+		$("#showcase").flickity({
+			wrapAround: true,
+			//pageDots: false
+		});
+		//# sourceURL=pen.js
+	</script>
+	<script>
+		$("#showcase2").flickity({
+			wrapAround: true,
+			//pageDots: false
+		});
+		//# sourceURL=pen.js
+	</script>
+	<script>
+		$("#showcase3").flickity({
+			wrapAround: true,
+			//pageDots: false
+		});
+		//# sourceURL=pen.js
+	</script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>

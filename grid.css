@@ -1,0 +1,19 @@
+@media(max-width:800px) {
+    .bg-1 .logo strong{font-size:36px;}
+    .bg-1 .phone {
+    padding-top: 23px;
+    text-align: center;
+    font-size: 26px;}
+    .bg-1 h1{font-size: 38px;}
+    .bg-1 h3{font-size: 20px; line-height: 22px;}
+    .bg-3{padding-bottom: 0px;}
+    .bg-3 img{margin: 0 auto; width: auto; max-height: 400px;}
+    .bg-4 img{padding:25px;}
+    .bg-4 h2{text-align: center;}
+    .bg-5 p{font-size:20px;}
+    .bg-6 h2,.bg-6 p{text-align: center;}
+    .bg-7 {margin-bottom: 50px;}
+    .bg-7 h2{text-align: center;}
+    .bg-7 p{max-width:100%;text-align: center;}
+
+}

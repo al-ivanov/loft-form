@@ -1,0 +1,168 @@
+/*************** form *******************/
+.fields .input{padding: 5px 5px;}
+.head {
+
+	border-style: solid;
+	border-width: 1px 1px 0;
+	text-align: center;
+	padding: 20px 30px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.body {
+	border-style: solid;
+	border-width: 1px;
+	padding: 15px 30px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+.form {
+	padding: 10px 0;
+	width: 100%;
+	margin-bottom: 0;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.form .field {
+	margin-bottom: 15px;
+	font-size: 125%;
+    text-align: left;
+}
+
+.form .field > .input {
+	width: 100%;
+	position: relative;
+}
+.form .field .form-control {
+	height: 44px;
+	border-width: 2px;
+	padding: 10px 12px;
+}
+.form .field > .input > .form-control {
+	color: grey;
+	overflow: hidden;
+	white-space: nowrap;
+}
+input, .macros-button .btn {
+	outline: 0 !important;
+}
+.form .macros-button {
+	margin-top: 10px;
+}
+.cont {
+	min-height: 2px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-width: 0 !important;
+	position: relative;
+}
+.form .field > .input > .file {
+	position: relative;
+	overflow: hidden;
+}
+
+.macros-button .btn-out.full .btn-inner {
+	width: 100%;
+}
+.macros-button .btn-inner:hover {
+	text-decoration: none;
+}
+.macros-button .btn-inner {
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	text-decoration: none;
+}
+#uid14 {
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	border-bottom-left-radius: 35px;
+	border-style: solid;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: rgb(204, 204, 204);
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 34px;
+	padding-right: 34px;
+	font-size: 13px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+}
+/*************/
+.macros-button .btn {
+	width: 100%;
+	display: block;
+	box-shadow: none;
+	position: relative;
+	border-width: 0;
+	overflow: hidden;
+	white-space: normal;
+	transition-property: box-shadow,transform,color,background-color,border-color !important;
+}
+input, .macros-button .btn {
+	outline: 0 !important;
+}
+.macros-button .btn, pre {
+	word-wrap: break-word;
+}
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.btn {
+	background-image: none;
+}
+.btn, img {
+	vertical-align: middle;
+}
+.macros-button .btn-out.full .btn-inner {
+	width: 100%;
+}
+.macros-button .btn-inner:hover {
+	text-decoration: none;
+}
+.macros-button .btn-inner {
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	text-decoration: none;
+}
+.macros-button {
+	line-height: 0;
+}
+.form .macros-button {
+	margin-top: 10px;
+}
+.body > .form .field > .input > .file input {
+	position: absolute;
+	top: 0;
+	left: -400px;
+	right: 0;
+	bottom: 0;
+	width: 2400px;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+input, .macros-button .btn {
+	outline: 0 !important;
+}
+input[type="file"] {
+	display: block;
+}
+.submit input{display:block;width:1px;height:1px;overflow: hidden;position: absolute; left:-9999px;}

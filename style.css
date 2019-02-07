@@ -1,0 +1,784 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after {
+	display: table;
+	content: ' ';
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+.cff:before,
+.cff:after {
+	display: table;
+	content: ' ';
+}
+
+.cff:after {
+	clear: both;
+}
+
+.cff {
+	*zoom: 1;
+}
+
+.cfc:before,
+.cfc:after {
+	display: table;
+	content: ' ';
+}
+
+.cfc:after {
+	clear: both;
+}
+
+.cfc {
+	*zoom: 1;
+}
+
+.flickity-prev-next-button.previous {
+	left: -30px;
+}
+
+.flickity-prev-next-button.next {
+	right: -30px;
+}
+
+.flickity-prev-next-button .arrow {
+	fill: #F5F7FA;
+}
+
+.flickity-prev-next-button {
+	background-color: #434A54;
+	width: 38px;
+	height: 38px;
+}
+
+.flickity-prev-next-button:hover {
+	background-color: #656D78;
+}
+
+.flickity-page-dots {
+	display: none;
+}
+
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	margin: 0;
+	color: #555555;
+	background-color: #f5f7fa;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+figure {
+	margin: 0;
+	padding: 10px;
+}
+
+figure a {
+	display: block;
+}
+
+mark {
+	padding: 0 5px;
+	background-color: #dddddd;
+}
+
+::backdrop {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.site-content {
+	text-align: left;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-right: 5%;
+	padding-left: 5%;
+	/*margin-bottom: 90px;*/
+}
+
+.card {
+	width: 100%;
+	background-color: #fff;
+	text-align: left;
+	position: relative;
+	height: 100%;
+	/*box-shadow: 0px 2px 6px 0px rgba(204,209,217,.5);
+border: 1px solid #E6E9ED;*/
+}
+
+.courses {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.course-item {
+	width: 33%;
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-bottom: 30px;
+	/* ensuring proper layout*/
+	float: left;
+}
+
+.course-heading {
+	font-weight: 500;
+	font-size: 12px;
+	color: #AAB2BD;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.course-info {
+	padding: 7%;
+	/*min-height: 140px;*/
+}
+
+.course-topic {
+	font-weight: 500;
+	color: #AAB2BD;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.course-topic.photo {
+	color: #673AB7;
+}
+
+.course-topic.webdesign {
+	color: #009688;
+}
+
+.course-topic.computer {
+	color: #2196F3;
+}
+
+.course-topic.code {
+	color: #4CAF50;
+}
+
+.course-topic.design {
+	color: #F44336;
+}
+
+.course-title {
+	font-weight: 500;
+	font-size: 14px;
+	margin: 0 0 30%;
+}
+
+.course-meta {
+	color: #AAB2BD;
+	font-weight: 300;
+	font-size: 11px;
+	position: absolute;
+	left: 7%;
+	bottom: 7%;
+}
+
+.course-duration:before {
+	display: inline-block;
+	content: "•";
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.course-caption {
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+	font-size: 18px;
+	color: #AAB2BD;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+	color: #f5f6f7;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 16px;
+	color: inherit;
+	line-height: 1.4;
+	margin: 0;
+}
+
+.margin {
+	margin: 25px 0;
+}
+
+.margin-bttm {
+	margin-bottom: 45px;
+}
+
+.margin-top {
+	margin-top: 45px;
+}
+
+.bg-0 {
+	background: url(img/background.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.bg-1 {
+	/* Первый экран */
+	color: #000000;
+	min-height: 900px;
+	background-color: rgba(255, 255, 255, 0.38);
+	padding-top: 40px;
+}
+
+.bg-1 .logo {
+	display: table-cell;
+}
+
+.bg-1 .logo img {
+	max-width: 69px;
+	max-height: 69px;
+	vertical-align: middle;
+}
+
+.bg-1 .logo strong {
+	font-size: 18px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.bg-1 .phone {}
+
+.bg-1 .phone {
+	font-size: 17px;
+	display: table-cell;
+	padding-top: 23px;
+	text-align: right;
+}
+
+.bg-1 .butt {
+	display: table-cell;
+	padding-top: 13px;
+}
+
+.bg-1 .top {
+	margin-top: 11%;
+}
+
+.bg-1 h1 {
+	font-size: 64px;
+	font-family: 'TTNorms Light';
+}
+
+.bg-1 h3 {
+	font-size: 24px;
+	line-height: 35px;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 50px;
+}
+
+/*************************************/
+
+.bg-2 {
+	background-color: #000000;
+	min-height: 275px;
+	color: #ffffff;
+}
+
+.bg-2 h3 {
+	text-transform: uppercase;
+	font-family: 'TTNorms Light';
+	font-size: 18px;
+}
+
+.bg-2 p {
+	color: #807D7B;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 16px;
+}
+
+/*************************************/
+
+.bg-3 {
+	/* Хранение вещей */
+	/*background: #ffffff url(img/bg_arr_wt_blck.gif) bottom center no-repeat;
+    color: #555555;
+    min-height: 700px;
+    padding: 40px 0 70px;*/
+}
+
+/*.bg-3 img {
+    width: auto;
+    max-height: 350px;
+    margin: 0 auto;
+}*/
+
+.bg-3 .carousel-indicators {
+	display: block;
+	margin-bottom: -50px;
+}
+
+.bg-3 h2 {
+	font-size: 48px;
+	font-family: 'TTNorms Light';
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.bg-3 h3 {
+	font-size: 28px;
+	font-family: 'TTNorms Light';
+	max-width: 80%;
+	margin: 30px auto;
+}
+
+.bg-3 ul {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.bg-3 ul li {
+	list-style: none;
+	text-align: left;
+	padding: 5px 0;
+}
+
+.bg-3 ul li {
+	font-size: 15px;
+}
+
+.bg-3 ul li.price {
+	font-size: 18px;
+}
+
+.bg-3 ul li.price:before {
+	content: "Цена: ";
+}
+
+.bg-3 .carousel-control span {
+	color: #000;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size: 50px;
+	margin: 0 -50px;
+}
+
+.bg-3 .carousel-control:focus,
+.carousel-control:hover {
+	color: #fff;
+}
+
+.bg-3 .carousel-indicators li {
+	background-color: #CCCCCC;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+}
+
+.bg-3 .carousel-indicators li.active {
+	background-color: #FF9900;
+	border: 1px solid #FF9900;
+	border-radius: 10px;
+}
+
+.bg-3 .carousel-control.left,
+.bg-3 .carousel-control.right {
+	background-image: none;
+}
+
+/*************************************/
+
+.bg-4 {
+	/* Укажите размеры */
+	padding-top: 40px;
+	background-color: #000000;
+	color: #fff;
+	min-height: 380px;
+}
+
+.bg-4 h2 {
+	font-size: 48px;
+	font-family: 'TTNorms Light';
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: left;
+	max-width: 80%;
+}
+
+.bg-4 p {
+	padding: 30px 0 0 70px;
+	max-width: 90%;
+	text-align: left;
+}
+
+/***************************************/
+
+.bg-5 {
+	/* Выбор цвета */
+	background: #ffffff url(img/bg_arr_blck_wt.gif) top center no-repeat;
+	min-height: 450px;
+	padding-top: 70px;
+}
+
+.bg-5 img {
+	max-height: 250px;
+	margin: 50px auto;
+}
+
+.bg-5 h2 {
+	font-size: 48px;
+	font-family: 'TTNorms Light';
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/************************************/
+
+.bg-6 {
+	/* Изготовление и доставка*/
+	background: #000000 url(img/bg_arr_wt_blck.gif) top center no-repeat;
+	min-height: 350px;
+	padding-top: 70px;
+}
+
+.bg-6 img {
+	max-height: 300px;
+	margin: auto;
+}
+
+.bg-6 h2 {
+	font-size: 48px;
+	font-family: 'TTNorms Light';
+	color: #fff;
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.bg-6 p {
+	color: #807D7B;
+	max-width: 80%;
+	margin: 20px auto;
+	text-align: left;
+}
+
+/********************************/
+
+.bg-0-7 {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	position: relative;
+	background: #ffffff url(img/background.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 100;
+}
+
+.bg-7 {
+	/* Оставить заявку */
+	background: rgba(255, 255, 255, 0.54) url(img/bg_arr_blck_wt.gif) no-repeat top center;
+	min-height: 550px;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	z-index: 10;
+}
+
+.bg-7 h2 {
+	font-size: 48px;
+	font-family: 'TTNorms Light';
+	color: #000000;
+	max-width: 90%;
+	margin: 12% auto 0 0;
+	text-align: left;
+}
+
+.bg-7 p {
+	font-size: 16px;
+	max-width: 70%;
+	margin-top: 40px;
+	text-align: left;
+}
+
+/*******************************/
+
+.bg-footer {
+	background-color: rgb(31, 31, 31);
+	color: #fff;
+	padding: 70px 0;
+	font-family: 'TTNorms Light';
+}
+
+.bg-footer img {
+	width: 69px;
+	height: 69px;
+}
+
+.bg-footer .row {
+	padding: 20px;
+	font-size: 14px;
+	font-family: 'TTNorms Medium', sans-serif;
+}
+
+.bg-footer h1 {
+	font-size: 48px;
+}
+
+.bg-footer h3 {
+	font-size: 36px;
+}
+
+/*****************************/
+
+/* Кнопка */
+
+.bg-1 #uid2 {
+	background-color: rgba(3, 3, 3, 0);
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-color: rgb(3, 3, 3);
+	padding-top: 11px;
+	padding-bottom: 11px;
+	font-size: 13px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: rgb(3, 3, 3);
+}
+
+.bg-1 #uid2:hover,
+#uid2.hover {
+	color: rgb(3, 3, 3);
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.bg-1 .btn {
+	width: 100%;
+	display: block;
+	box-shadow: none;
+	position: relative;
+	border-width: 0;
+	overflow: hidden;
+	white-space: normal;
+	transition-property: box-shadow, transform, color, background-color, border-color !important;
+}
+
+#uid5:hover,
+#uid5.hover {
+	background-color: rgb(2, 2, 2);
+	border-color: rgb(2, 2, 2);
+	color: rgb(255, 255, 255);
+}
+
+#uid5 {
+	background-color: rgb(3, 3, 3);
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-style: solid;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: rgb(2, 2, 2);
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+
+.bg-1 .btn {
+	width: 100%;
+	display: block;
+	box-shadow: none;
+	position: relative;
+	border-width: 0;
+	overflow: hidden;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.bg-1 .btn a:hover {
+	text-decoration: none;
+}
+
+/******************/
+
+
+.course-thumbnail {
+	min-height: 580px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.course-thumbnail img {
+	width: 100%;
+}
+
+.course-item {
+	display: flex;
+}
+
+@media (max-width: 575px) {
+	.bg-3 ul {
+		padding: 0;
+	}
+	.bg-3 ul li {
+		font-size: 9px;
+		padding: 0;
+	}
+	.bg-3 ul li.price {
+		font-size: 9px;
+		font-weight: bold;
+	}
+	.flickity-prev-next-button.previous {
+		left: -30px;
+		display: none;
+	}
+	.flickity-prev-next-button.next {
+		display: none;
+		right: -30px;
+	}
+	.cf {
+		/*height: 320px;*/
+		margin-bottom: 0px;
+	}
+	.cff {
+		/*height: 290px;*/
+		margin-bottom: 0px;
+	}
+	.cfc {
+		/*height: 230px;*/
+	}
+	.bg-3 {
+		padding-bottom: 0px;
+	}
+	.flickity-viewport {
+		height: 180px;
+	}
+	.site-content {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.contacts-inner {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.course-thumbnail {
+		min-height: 225px;
+	}
+}
+
+@media (max-width: 374px) {
+	.bg-3 ul {
+		padding: 0;
+	}
+	.bg-3 ul li {
+		font-size: 9px;
+		padding: 0;
+	}
+	.bg-3 ul li.price {
+		font-size: 9px;
+		font-weight: bold;
+	}
+	.flickity-prev-next-button.previous {
+		left: -30px;
+		display: none;
+	}
+	.flickity-prev-next-button.next {
+		display: none;
+		right: -30px;
+	}
+	.cf {
+		height: 230px;
+		margin-bottom: 0px;
+	}
+	.cff {
+		height: 290px;
+		margin-bottom: 0px;
+	}
+	.cfc {
+		height: 230px;
+	}
+	.bg-3 {
+		padding-bottom: 0px;
+	}
+	.flickity-viewport {
+		height: 180px;
+	}
+	.site-content {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.course-thumbnail {
+		min-height: 130px;
+	}
+}
+
+@media (max-width: 320px) {
+	.contacts-inner {
+		flex-direction: column;
+		align-items: center;
+	}
+	.bg-footer h1 {
+		font-size: 40px;
+	}
+
+	.course-thumbnail {
+		min-height: 130px;
+	}
+}
